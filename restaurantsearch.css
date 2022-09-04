@@ -1,0 +1,144 @@
+body{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 45px;
+    width: 100%;
+    border: 1px solid black;
+    display: inline-block;
+    background-color: red;
+}
+header p{
+    color: white;
+    line-height: 1.2px;
+    font-weight: bolder;
+    margin-left: 1%;
+}
+#headersearch{
+    height: 25px;
+    width: 40%;
+    border: 1px solid black;
+    margin-left: 30%;
+    margin-top: -30px;
+    background-color: white;
+}
+#headersearch input{
+    width:580px;
+    height: 25.2px;
+    border: none;
+
+}
+#headersearch img{
+    height: 15px;
+    margin-top: 24px;
+    margin-right: -20px;
+}
+header a{
+    text-decoration: none;
+    float: right;
+    margin-right: 20px;
+    margin-top: -18px;
+    color: white;
+}
+#maindiv{
+    width: 100%;
+    border: 0.5px solid rgb(246, 230, 230);
+    margin-top: 1.5%;
+}
+.filter{
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+
+.filters{
+    width: 85%;
+    border: 0.5px solid rgb(249, 251, 245);
+    margin-top: 3%;
+    margin-left: 5%;
+
+}
+.filters span{
+    display: block;
+    color: black;
+    font-weight:bold;
+    margin-top: 5%;
+}
+.items{
+    width:100%;
+    height: auto;
+}
+.itemdiv{
+    height: fit-content;
+    width: 17%;
+    margin-left: 3%;
+    margin-top: 2%;
+    float: left;
+    box-shadow: 15px 11px 10px rgb(210, 208, 186);
+}
+.itemdiv:hover{
+    transform: scale(1.1);
+}
+.checked{
+    color: green;
+}
+.itemdiv img{
+    height: 155px;
+    width: 100%;
+}
+.star{
+    height: 130px;
+    width: 85%;
+    margin-left: 33%;
+}
+.content{
+    height: 100px;
+    width: 100%;
+    border: 0.001px solid lightblue;
+    margin-left: -30%;
+}
+.content span{
+    margin-left: 30%;
+    font-weight: bold;
+}
+.content p{
+    margin-left: 30px;
+}
+
+footer{
+ width: 100%;
+ height: 282px;
+ background-color:rgb(245, 246, 247);
+ margin-top: auto;
+ margin-top: 1%;
+}
+.footercontent{
+    width: 15%;
+    margin-left: 5%;
+    margin-top: 1%;
+    float: left;
+    margin-top: 2%;
+
+}
+.footercontent span{
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+.footercontent a{
+text-decoration: none;
+}
+.footercontent p{
+    font-weight:lighter;
+    color: rgb(73, 50, 45);
+}
+.footercontent .fa{
+    font-size: 25px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
